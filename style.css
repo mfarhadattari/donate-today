@@ -1,33 +1,161 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif */
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.primary-btn {
+    background-color: #FF5959;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.section-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+
+}
+.section-description{
+    color: #707070;
+    text-align: center;
+}
+
 /* Header Section */
+.header {
+    background-image: url(images/donation13.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 150px;
+}
+
+.header-item {
+    margin: 60px 120px;
+    text-align: center;
+    margin: 100px 120px;
+}
+
+.header-title {
+    color: white;
+    font-family: Inter;
+    font-size: 50px;
+}
+
+.header-description {
+    color: white;
+    margin: 20px 100px;
+    text-align: center;
+}
 
 /* Main Section */
-.section{
+.section {
     margin: 60px 120px;
     text-align: center;
     border: 2px solid red;
 }
 
-/* update information */
-.update-info{
-    margin: 0 250px;
+/* Donate Today Style */
+.donate-today {
+    margin: 60px 120px;
+    text-align: center;
 }
+.donate-today-items {
+    margin: 30px 120px;
+    text-align: center;
+}
+.amount{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+.tk{
+    color:#707070;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width:150px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: #FAFAFA;
+}
+#tk{
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    
+}
+.other-amount{
+    text-align: center;
+    color:#D5D5D5;
+    border: none;
+    margin: 30px 120px;
+}
+.other-amount input{
+    text-align: center;
+    padding: 20px 80px;
+}
+/* update information */
+
+.update-info {
+    margin: 50px 120px;
+    padding: 20px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 50px 120px;
+    background-color: #FFF4D6;
+    padding: 50px 100px;
+}
+
+input {
+    border: none;
+}
+
+.from-items input{
+    background-color: #D9D9D9;
+    padding: 10px 20px;
+}
+
+.subscribe-btn{
+    background-color: #FF5959;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+}
+
 /* Footer Section */
-.footer{
+.footer {
     background-color: #0B0D17;
 }
 
-.footer-content{
+.footer-content {
     padding: 50px 0;
     text-align: center;
 }
-.footer h3{
+
+.footer h3 {
     color: #FF5959;
+    font-family: Lobster;
+    font-weight: 400px;
+    font-size: 24px;
 }
 
-.footer p{
+.footer p {
     color: white;
+    font-family: Manrope;
 }
-.copyright{
+
+.copyright {
     text-align: center;
     padding-bottom: 20px;
+    font-family: Roboto;
 }
