@@ -1,0 +1,33 @@
+/* Header Section */
+
+/* Main Section */
+.section{
+    margin: 60px 120px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+/* update information */
+.update-info{
+    margin: 0 250px;
+}
+/* Footer Section */
+.footer{
+    background-color: #0B0D17;
+}
+
+.footer-content{
+    padding: 50px 0;
+    text-align: center;
+}
+.footer h3{
+    color: #FF5959;
+}
+
+.footer p{
+    color: white;
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 20px;
+}
